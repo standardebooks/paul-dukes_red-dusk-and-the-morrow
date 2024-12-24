@@ -6,6 +6,12 @@ blockquote[xml|lang]{
 	font-style: italic;
 }
 
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
