@@ -18,7 +18,9 @@
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
 		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
+		<meta property="schema:accessibilityFeature">alternativeText</meta>
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
@@ -28,6 +30,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Red Dusk and the Morrow</dc:title>
 		<meta property="file-as" refines="#title">Red Dusk and the Morrow</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Adventures and Investigations in Red Russia</dc:title>
+		<meta property="file-as" refines="#subtitle">Adventures and Investigations in Red Russia</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Red Dusk and the Morrow: Adventures and Investigations in Red Russia</dc:title>
+		<meta property="file-as" refines="#fulltitle">Red Dusk and the Morrow: Adventures and Investigations in Red Russia</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Communism -- Soviet Union</dc:subject>
 		<dc:subject id="subject-2">Soviet Union -- Social conditions</dc:subject>
 		<dc:subject id="subject-3">Spies -- Great Britain -- Biography</dc:subject>
@@ -43,51 +52,53 @@
 		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Memoir</meta>
+		<meta property="se:subject">Nonfiction</meta>
+		<dc:description id="description">The crackdown of the Red Terror has splintered Britain’s spy networks, and a newly minted agent is sent in to pick up the pieces.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Summoned to London by a mysterious telegram, &lt;a href="https://standardebooks.org/ebooks/paul-dukes"&gt;Paul Dukes&lt;/a&gt; finds himself recruited into the ranks of the British Secret Intelligence Service. The murder of Captain Cromie in the embassy in Petrograd has flung the British spy networks in Russia into disarray, and the onslaught of the Red Terror threatens to stamp them out for good. With no prior espionage experience, Dukes is tasked with rebuilding the broken networks under the nose of the Bolshevik regime, all while keeping two steps ahead of the agents of the secret police.&lt;/p&gt;
+			&lt;p&gt;Published in 1922, this memoir offers a view into the early days of the Secret Intelligence Service, now commonly known as MI6. Despite their reticence around their covert activities, MI6 allowed publication of early accounts of this book to drum up public support for the British intervention in northern Russia. Being a civilian Dukes was ineligible for the Victoria Cross after his service, so instead was knighted by King George V.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/57804</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/redduskmorrowadv00dukerich</dc:source>
+		<meta property="se:production-notes">Romanizations of Russian names were modernized as appropriate.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/paul-dukes_red-dusk-and-the-morrow</meta>
 		<dc:creator id="author">Paul Dukes</dc:creator>
 		<meta property="file-as" refines="#author">Dukes, Paul</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Paul Henry Dukes</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Paul_Dukes</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n97874458</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
+		<dc:contributor id="artist">Fanny Churberg</dc:contributor>
+		<meta property="file-as" refines="#artist">Churberg, Fanny</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Fanny_Churberg</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr94024333</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="transcriber-1">ellinora</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">ellinora</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_2_URL</meta>
+		<dc:contributor id="transcriber-2">Wayne Hammond</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Hammond, Wayne</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Jacob Garber</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Garber, Jacob</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.jwgarber.ca/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
