@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-5.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>Ending question mark is part of the pamphlet title.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-11.xhtml">
+		<ignore>
+			<code>y-031</code>
+			<reason>There is no missing punctuation.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
