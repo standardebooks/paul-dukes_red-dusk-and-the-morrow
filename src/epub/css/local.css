@@ -90,3 +90,49 @@ p span.i2{
 	text-indent: -1em;
 }
 /* End poem */
+
+/* Begin figure */
+figure{
+	break-inside: avoid;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figcaption{
+	font-size: smaller;
+	font-style: italic;
+	margin: 1em;
+}
+
+figure.full-page{
+	break-after: page;
+	break-before: page;
+	margin: 0;
+	max-height: 100vh;
+	text-align: center;
+}
+
+@supports(display: flex){
+	figure.full-page{
+		display: flex;
+		flex-direction: column;
+	}
+
+	figure.full-page img{
+		height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@supports(display: grid){
+	figure.full-page{
+		display: grid;
+		grid-template-rows: 1fr auto;
+		max-height: 100%;
+	}
+}
+/* End figure */
