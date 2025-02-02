@@ -9,6 +9,11 @@ blockquote[xml|lang]{
 header{
 	font-variant: small-caps;
 	margin: 1em;
+}
+
+#chapter-5 blockquote p {
+	font-variant: small-caps;
+	margin: 1em;
 	text-align: center;
 }
 
