@@ -63,7 +63,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/57804</dc:source>
 		<dc:source>https://archive.org/details/redduskmorrowadv00dukerich</dc:source>
 		<meta property="se:production-notes">Romanizations of Russian names were modernized as appropriate.</meta>
-		<meta property="se:word-count">89017</meta>
+		<meta property="se:word-count">88509</meta>
 		<meta property="se:reading-ease.flesch">61.46</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/paul-dukes_red-dusk-and-the-morrow</meta>
 		<dc:creator id="author">Paul Dukes</dc:creator>
