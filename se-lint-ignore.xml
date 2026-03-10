@@ -2,11 +2,13 @@
 <se-lint-ignore>
 	<file path="chapter-5.xhtml">
 		<ignore code="t-017">
+			<line>79</line>
 			<reason>Ending question mark is part of the pamphlet title.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-11.xhtml">
 		<ignore code="y-031">
+			<line>18</line>
 			<reason>There is no missing punctuation.</reason>
 		</ignore>
 	</file>
