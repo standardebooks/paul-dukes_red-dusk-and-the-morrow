@@ -37,7 +37,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">Red Dusk and the Morrow: Adventures and Investigations in Red Russia</dc:title>
 		<meta property="file-as" refines="#fulltitle">Red Dusk and the Morrow: Adventures and Investigations in Red Russia</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Communism -- Soviet Union</dc:subject>
 		<dc:subject id="subject-2">Soviet Union -- Social conditions</dc:subject>
 		<dc:subject id="subject-3">Spies -- Great Britain -- Biography</dc:subject>
