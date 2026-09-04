@@ -38,11 +38,11 @@
 		<dc:title id="fulltitle">Red Dusk and the Morrow: Adventures and Investigations in Red Russia</dc:title>
 		<meta property="file-as" refines="#fulltitle">Red Dusk and the Morrow: Adventures and Investigations in Red Russia</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
-		<dc:subject id="subject-1">Communism -- Soviet Union</dc:subject>
-		<dc:subject id="subject-2">Soviet Union -- Social conditions</dc:subject>
-		<dc:subject id="subject-3">Spies -- Great Britain -- Biography</dc:subject>
+		<dc:subject id="subject-1">Communism--Soviet Union</dc:subject>
+		<dc:subject id="subject-2">Soviet Union--Social conditions</dc:subject>
+		<dc:subject id="subject-3">Spies--Great Britain--Biography</dc:subject>
 		<dc:subject id="subject-4">Dukes, Paul, 1889-1967</dc:subject>
-		<dc:subject id="subject-5">Espionage, British -- Soviet Union -- History -- 20th century</dc:subject>
+		<dc:subject id="subject-5">Espionage, British--Soviet Union--History--20th century</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85029128</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
